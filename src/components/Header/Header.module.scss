@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 74px;
+    background-color: #073042;
+}
+
+.link {
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+}
