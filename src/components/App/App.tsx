@@ -8,7 +8,6 @@ const defaultTheme = JSON.parse(localStorage.getItem('theme') || 'app_light_them
 function App() {
   const [theme, setTheme] = useState(defaultTheme)
 
-
   const toggleTheme = () => {
     if(theme === 'app_light_theme') {
       setTheme('app_dark_theme')
