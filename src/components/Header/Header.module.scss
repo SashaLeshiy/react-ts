@@ -4,13 +4,18 @@
     justify-content: space-between;
     padding: 20px;
     min-height: 74px;
-    background-color: #073042;
 }
 
 .link {
-    color: #ffffff;
     margin-right: 10px;
+    color: var(--primary-color);
     text-decoration: none;
+}
+
+.toggle {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
 }
 
 .logo {

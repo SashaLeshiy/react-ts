@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   css: {
     modules: {
-      generateScopedName: '[folder]__[local]-[hash:base64:5]'
+      generateScopedName: '[local]-[hash:base64:5]'
     }
   }
 })
